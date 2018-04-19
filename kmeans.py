@@ -1,13 +1,3 @@
-"""
-
-	Question 4 Computation
-	----------------------
-
-	csv -> document vector matrix, doc row map, word column map
-
-
-"""
-
 import numpy as np
 import pandas as pd
 
