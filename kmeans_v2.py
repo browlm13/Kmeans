@@ -2,6 +2,7 @@
 
 	kmeans
 
+	TODO: Ensure Cluster centers stay within bounds
 
 """
 
@@ -168,7 +169,11 @@ def generate_random_k_clusters(k, size, sd=3):
 #
 
 k = 3
-M = generate_random_k_clusters(k,30)
+M = generate_random_k_clusters(k,50, 2)
 
 max_iterations = 5
 centroids, iters = kmeans(M, k, max_iterations)
+
+
+
+
